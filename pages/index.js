@@ -1,7 +1,7 @@
 import config from "../config.json";
 import styled from "styled-components";
 import { CSSReset } from "../src/components/CSSReset";
-import Menu from "../src/components/MENU";
+import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/TimeLine";
 
 function HomePage() {
