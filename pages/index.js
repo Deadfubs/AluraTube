@@ -6,12 +6,12 @@ import { StyledTimeline } from "../src/components/TimeLine";
 
 function HomePage() {
   //   console.log(config.playlists);
-  const estilosDaHomePage = { 
+  const estilosDaHomePage = {
     display: "flex",
     flexDirection: "column",
     flex: 1,
-   //backgroundColor: "red" 
-};
+    //backgroundColor: "red"
+  };
   return (
     <>
       <CSSReset />
@@ -26,8 +26,6 @@ function HomePage() {
 
 export default HomePage;
 
-
-
 const StyledHeader = styled.div`
   img {
     width: 88px;
@@ -35,20 +33,25 @@ const StyledHeader = styled.div`
     border-radius: 50%;
   }
   .user-info {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     display: flex;
     align-items: center;
     width: 100%;
     padding: 16px 32px;
     gap: 16px;
   }
+  .banner {
+    width: 100%;
+    height: 200px;
+    background-image: url("https://www.primis.tech/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2017/03/Gaming-Blog-Banner_1200x300.png.webp");
+    background-size: cover;
+  }
 `;
 
 function Header() {
   return (
     <StyledHeader>
-      {/* <img src="banner" /> */}
-
+      <section className="banner"></section>
       <section className="user-info">
         <img src={`https://github.com/${config.github}.png`} />
         <div>
