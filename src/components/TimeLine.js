@@ -37,7 +37,7 @@ export const StyledTimeline = styled.div`
         scroll-snap-align: start;
         span {
           padding-top: 8px;
-          display: block;
+          display: flex;
           padding-right: 24px;
           color: ${({ theme }) => theme.textColorBase || "#222222"};
         }
