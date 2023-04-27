@@ -21,7 +21,7 @@ export const StyledTimeline = styled.div`
   section {
     width: 100%;
     padding: 0;
-    overflow: auto;
+    overflow: hidden;
     padding: 16px;
     div {
       
