@@ -8,6 +8,7 @@ export const StyledTimeline = styled.div`
   h2 {
     font-size: 16px;
     margin-bottom: 16px;
+    font-weight: bold;
     text-transform: capitalize;
   }
   img {
@@ -26,7 +27,7 @@ export const StyledTimeline = styled.div`
     div {
       width: calc(100vw - 16px * 4);
       display: grid;
-      grid-gap: 16px;
+      grid-gap: 8px;
       grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
       grid-auto-flow: column;
       grid-auto-columns: minmax(200px, 1fr);
@@ -34,11 +35,17 @@ export const StyledTimeline = styled.div`
       scroll-snap-type: x mandatory;
       a {
         scroll-snap-align: start;
+        scroll-snap-align: start;
+        display: block;
+        max-height: 160px; /* altura máxima em pixels */
+        overflow: hidden;
+        text-overflow: ellipsis;
         span {
           padding-top: 8px;
           display: block;
           padding-right: 24px;
           color: ${({ theme }) => theme.textColorBase || "#222222"};
+          font-weight: bold;
         }
       }
     }
