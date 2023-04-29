@@ -35,13 +35,11 @@ export const StyledTimeline = styled.div`
       scroll-snap-type: x mandatory;
       a {
         scroll-snap-align: start;
-        scroll-snap-align: start;
         display: block;
-        max-height: 160px; /* altura máxima em pixels */
-        overflow: hidden;
-        text-overflow: ellipsis;
+    
         span {
           padding-top: 8px;
+          padding-bottom: 8px;
           display: block;
           padding-right: 24px;
           color: ${({ theme }) => theme.textColorBase || "#222222"};

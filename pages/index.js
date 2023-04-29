@@ -93,10 +93,11 @@ function TimeLine({ searchValue, ...props }) {
                   return titleNormalized.includes(searchValueNormalized);
                 })
                 .map(function (video) {
+                  const videoTitle = video.title.length > 34 ? video.title.substring(0, 34) + "..." : video.title;
                   return (
                     <a key={video.url} href={video.url}>
                       <img src={video.thumb} />
-                      <span>{video.title}</span>
+                      <span>{videoTitle}</span>
                     </a>
                   );
                 })}
