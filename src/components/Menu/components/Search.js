@@ -9,6 +9,7 @@ const StyledSearch = styled.div`
   width: 100%;
   border-radius: 2px;
   overflow: hidden;
+  margin-left: auto;
 
   input {
     width: 80%;
