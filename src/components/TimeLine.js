@@ -36,7 +36,7 @@ export const StyledTimeline = styled.div`
       a {
         scroll-snap-align: start;
         display: block;
-    
+
         span {
           padding-top: 8px;
           padding-bottom: 8px;
