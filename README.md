@@ -10,12 +10,12 @@ Projeto de desenovolvimento e uma página de playlists semelhante à do YouTube 
 4. Entre no link que aparecer no terminal.
 
 ## Tecnologias Utilizadas
--JavaScript
--Node
--Supabase
--Next
--React
--Styled Components
+ - JavaScript
+ - Node
+ - Supabase
+ - Next
+ - React
+ - Styled Components
 
 
 
