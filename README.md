@@ -5,6 +5,7 @@
 
 ## Projeto 💻
 Projeto de desenovolvimento e uma página de playlists semelhante à do YouTube feito durante a imersão react 5 da Alura
+Visualização na Vercel: https://alura-tube-blush-two.vercel.app/
 
 ## Instalação 🛠️
 1. Rode git clone https://github.com/Deadfubs/AluraTube para fazer um clone desse repositório.
