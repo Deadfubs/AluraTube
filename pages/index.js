@@ -3,17 +3,37 @@ import config from "../config.json";
 import styled from "styled-components";
 import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/TimeLine";
+import { videoService } from "../src/services/videoService";
 
 function HomePage() {
-  //   console.log(config.playlists);
+  const service = videoService();
+  const [valorDoFiltro, setValorDoFiltro] = React.useState("");
+  const [playlists, setPlaylists] = React.useState({}); //config.playlist
+
+  React.useEffect(() => {
+    console.log("useEffect");
+    service.getAllVideos().then((dados) => {
+      console.log(dados.data);
+      // Forma imutavel
+      const novasPlaylists = {};
+      dados.data.forEach((video) => {
+        if (!novasPlaylists[video.playlist])
+          novasPlaylists[video.playlist] = [];
+        novasPlaylists[video.playlist] = [
+          video,
+          ...novasPlaylists[video.playlist],
+        ];
+      });
+
+      setPlaylists(novasPlaylists);
+    });
+  }, []);
+
   const estilosDaHomePage = {
     display: "flex",
     flexDirection: "column",
     flex: 1,
-    //backgroundColor: "red"
   };
-  const [valorDoFiltro, setValorDoFiltro] = React.useState("");
-
   return (
     <>
       <div style={estilosDaHomePage}>
