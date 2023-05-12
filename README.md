@@ -1,9 +1,6 @@
 <h1 align="center"> AluraTube </h1>
 
-<p align="center">
-![WhatsApp Image 2023-05-12 at 13 56 14](https://github.com/Deadfubs/AluraTube/assets/74834392/7545dd9e-7514-4693-b42a-0ce535892e16)
-</p>
-
+![Captura de tela 2023-05-12 142650](https://github.com/Deadfubs/AluraTube/assets/74834392/0181ca20-f3ca-4ed8-bb55-e1de84929735)
 
 
 ## Projeto
