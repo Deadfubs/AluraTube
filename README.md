@@ -9,4 +9,13 @@ Projeto de desenovolvimento e uma página de playlists semelhante à do YouTube 
 3. Rode npm run dev para iniciar o servidor de desenvolvimento.
 4. Entre no link que aparecer no terminal.
 
+## Tecnologias Utilizadas
+-JavaScript
+-Node
+-Supabase
+-Next
+-React
+-Styled Components
+
+
 
