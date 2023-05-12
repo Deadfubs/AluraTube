@@ -1,6 +1,7 @@
 <h1 align="center"> AluraTube </h1>
 
-![AluraTube](https://drive.google.com/file/d/1eXIUrZKK4lKArVpEOCsdgaf6P-AIrX-V/view?usp=share_link)
+![WhatsApp Image 2023-05-12 at 13 56 14](https://github.com/Deadfubs/AluraTube/assets/74834392/7545dd9e-7514-4693-b42a-0ce535892e16)
+
 
 ## Projeto
 Projeto de desenovolvimento e uma página de playlists semelhante à do YouTube feito durante a imersão react 5 da Alura
